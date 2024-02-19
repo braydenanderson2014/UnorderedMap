@@ -1,7 +1,7 @@
 #ifndef UNORDERED_MAP_H
 #define UNORDERED_MAP_H
 
-#include "Hashtable.h"
+#include <Hashtable.h>
 
 template <typename KeyType, typename ValueType, typename Hash = KeyHash<KeyType>>
 class UnorderedMap {
@@ -41,10 +41,13 @@ public:
      * @note If the key does not exist, a default-constructed value will be returned.
      * 
      */
-    ValueType get(const KeyType& key) const {
+    ValueType getValue(const KeyType& key) const {
         return *hashtable.get(key);
     }
 
+    KeyType getKey(const KeyType& key) const {
+        return hashtable.getKey(key);
+    }
     // Forward the containsKey operation
     /**
      * @brief Check if a key exists in the map
