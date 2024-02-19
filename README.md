@@ -16,6 +16,12 @@ To use `UnorderedMap` in your Arduino sketch:
 1. Copy the `UnorderedMap.h` file to your project's directory.
 2. Include `UnorderedMap.h` at the top of your sketch.
 
+# Arduino:
+## Change Log:
+### Version 1.0.0
+* Initial Release... NOTE: You will Need Hashtable v1.0.1-BETA and above
+
+# PlatformIO:
 ## Change Log
 ### Version 1.0.0
 * Initial Release
