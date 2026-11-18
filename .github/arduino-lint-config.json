@@ -1,3 +1,5 @@
 {
-  "skipLibraryManager": {}
+  "skipLibraryManager": {
+    "braydenanderson2014/UnorderedMap": ["."]
+  }
 }
